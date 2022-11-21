@@ -43,7 +43,7 @@ app.post("/post",( async (req,res)=>{
         name : req.body.name,
         bio : req.body.bio,
         image: {
-            // data: req.file.filename,
+            
             contentType: "image/png"
         }
     })
