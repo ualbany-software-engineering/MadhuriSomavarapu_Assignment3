@@ -1,0 +1,148 @@
+
+
+.formBody {
+  text-align: center;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   background-image: linear-gradient(79deg, #7439db, #c66FBC , #F7944D  );
+}
+
+.container, .form, .form {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+}
+
+.container{
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: rgb(166, 185, 232);
+}
+
+label{
+  text-align: left;
+  padding:  0.25rem 0;
+}
+input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button{
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db  ;
+}
+
+.bt{
+  border-radius: 10px;
+  margin-top: 10px;;
+}
+
+.link-btn{
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+ 
+}
+
+.display{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-shadow: 0 0 10px rgb(197, 188, 188);
+  border-radius: 10px;
+  margin: 0 10px 10px 10px;
+  padding: 20px;
+  
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  
+  
+}
+
+.title{
+  height: 65px;
+  width: 70vw;
+  padding: 0px 10px;
+  color: chocolate;
+  word-wrap: break-word;
+  
+}
+.description{
+  width: 70vw;
+  max-height: 150px;
+  padding: 0px 5px 5px 15px;
+  color: rgb(81, 77, 77);
+  word-wrap: break-word;
+  font-family: sans-serif;
+  
+}
+
+.form-group{
+  margin-left: 20px;
+  
+}
+
+.rounded-circle{
+  height:250px;
+  width:250px;
+  margin-top: 10px;
+  background-color: rgb(50, 125, 183);
+}
+
+.newsContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(232, 243, 239);
+  padding: 20px;
+  box-shadow: 0 0 10px rgb(197, 188, 188);
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.article{
+  background-color: rgb(232, 243, 239);
+}
+
+.heading{
+  color: rgb(85, 86, 70);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
